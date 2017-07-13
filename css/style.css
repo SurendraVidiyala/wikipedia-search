@@ -1,0 +1,60 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body{
+ 
+  background: url(http://res.cloudinary.com/surendravidiyala/image/upload/v1498507607/steven-diaz-182828_lgqdkl.jpg)no-repeat center center fixed;
+  background-size:cover;
+}
+.title{color:#ffffff;
+font-family: 'Dancing Script', cursive;
+  font-size:48px;
+  font-weight: bold;
+}
+.randart{color:#ffffff;
+font-size:16px;}
+
+/* Center header and search element vertically and horizontally */
+.pageCenter {
+	position:absolute;
+	left:50%;
+	top:40%;
+	margin:-75px 0 0 -135px;
+}
+.horizontalCenter {
+  text-align: center;
+}
+input {
+  margin: auto; /* Prevents input textbox from becoming uncentered */
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  width: 20em !important;
+}
+#submit,#random {
+  margin-bottom: 10px;
+  font-size:16px;
+  font-family: Monstserra;
+}
+.articleButton {
+  /* border: #000 !important;
+  border-style: solid !important;
+  border-width: 0px !important; */
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  white-space: normal; /* Allows for text wrap */
+  width: 22%;
+  margin: 15px 5px;
+  min-height: 250px;
+}
+#wikipedia-links a {
+  color: white;
+}
+a{color:#ffffff}
+footer p {
+  position: absolute;
+  left: 44vw;
+  bottom: 0;
+  color:#ffffff;
+  text-align: center;
+}
+.icon{color:red;}
